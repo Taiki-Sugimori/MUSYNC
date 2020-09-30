@@ -1,4 +1,5 @@
 # Songle Sync ブラウザ向けプロジェクト
+【※SampleソースのREADMEそのまま載せてます※】
 
 ブラウザで動作するシンプルな Songle Sync アプリケーション例です  
 引数で master/slave が切り替わります
