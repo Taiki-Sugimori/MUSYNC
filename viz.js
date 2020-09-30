@@ -22,13 +22,7 @@ let media_url = "";
 
 // 再生したいメディアを指定
 //DECORATOR
-//media_url = "https://www.youtube.com/watch?v=zweVJrnE1uY";
-
-//ダンスロボットダンス
-//media_url = "https://www.nicovideo.jp/watch/sm30177801";
-
-//砂の惑星
-media_url = "https://www.youtube.com/watch?v=AS4q9yaWJkI";
+media_url = "https://www.youtube.com/watch?v=zweVJrnE1uY";
 
 
 // Tokenを指定(以下のURLからTokenを発行できます)
