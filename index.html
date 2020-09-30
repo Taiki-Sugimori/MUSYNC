@@ -1,0 +1,46 @@
+<!--
+	【こうすればできそう？】
+		1,cssの処理をコメント化
+		2,全画面にMMD映像を再生(videoタグ?)
+		3,その上にdiv設置(透過100%)
+		4,↑にコメントを流す
+		5,いける・・・か・・・？
+-->
+<!DOCTYPE html>
+<html>
+
+  <head>
+	<meta charset="utf-8" />
+	<meta http-equiv="Pragma" content="no-cache">
+	<meta http-equiv="Cache-Control" content="no-cache">
+	<meta http-equiv="Expires" content="0">
+	<title>songle-sync-app-browser</title>
+	<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+	<script src="https://api.songle.jp/v2/api.js"></script>
+	<script src="sample_cache.js?p=(new Date()).getTime()"></script>
+	<script src="./viz.js"></script>
+	<link rel="stylesheet" href="./style.css" />
+  </head>
+
+  <body>
+	<ul id="beats">
+	  <li class="b1"></li>
+	  <li class="b2"></li>
+	  <li class="b3"></li>
+	  <li class="b4"></li>	  
+	</ul>
+	<div id="chord"></div>
+	<div id="widget"></div>
+	<ul id="widget_ctrl">
+	  <li class="play">再生</li>
+	  <li class="pause">停止</li>
+	  <li class="head">先頭</li>	  	  	  
+	  <li class="seekto_chorus">サビ</li>
+	</ul>
+	<div class="memo">
+	  動画の操作はボタン(API経由)で行ってください
+	</div>
+	<div id="chorus_alert">サビ</div>
+  </body>
+
+</html>
