@@ -30,8 +30,8 @@ media_url = "https://www.youtube.com/watch?v=zweVJrnE1uY";
 
 //【※重要※】
 //　トークンは絶対に外部に出さないこと!!!!!
-var accessToken = "000000c8-4jMshRb";
-var secretToken = "WKDaG2iyYATCLc3TSE3gHBVfbW1oz5rX";
+var accessToken = "";
+var secretToken = "";
 
 var player;
 
