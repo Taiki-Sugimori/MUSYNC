@@ -6,21 +6,6 @@
 
 ![Songle Sync Browser](ss.png "Songle Sync Browser")
 
-## Songle Sync のサイト上で Token を発行
-
-初めての方は新規登録が必要です  
-以下のURLから新規登録し、`accessToken`と`secretToken`を取得してください
-
-http://api.songle.jp/u/sign_in
-
-## Tokenを設定する
-
-viz.jsの以下の箇所を取得したTokenに書き換える
-
-```javascript
-var accessToken = "YOUR_ACCESS_TOKEN"
-var secretToken = "YOUR_SECRET_TOKEN"
-```
 
 ## masterでアクセスする
 
