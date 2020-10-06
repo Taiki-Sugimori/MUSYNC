@@ -29,6 +29,7 @@ media_url = "https://www.youtube.com/watch?v=zweVJrnE1uY";
 // http://api.songle.jp/user/
 
 //【※重要※】
+//  ここにトークン(slackで共有済み)
 //　トークンは絶対に外部に出さないこと!!!!!
 var accessToken = "";
 var secretToken = "";
